@@ -19,3 +19,5 @@ def take_a_number(katz_deli, name)
     return katz_deli
   end
 end
+def now_serving(katz_deli)
+end
