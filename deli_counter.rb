@@ -10,7 +10,7 @@ def line(katz_deli)
   end
 end
 def take_a_number(katz_deli, name)
-  index = katz_deli.index(name)
+  index = katz_deli.index(name) + 1
   if katz_deli.length == 0
     katz_deli << name
     puts "Welcome, #{name}. You are number #{index} in line."
